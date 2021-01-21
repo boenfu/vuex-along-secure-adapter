@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ES2015",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "listFiles": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "lib": ["es6", "es2015", "dom", "scripthost"]
+  }
+}

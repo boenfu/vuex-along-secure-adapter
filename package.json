@@ -1,0 +1,37 @@
+{
+  "name": "vuex-along-secure-adapter",
+  "version": "0.1.0",
+  "description": "Automatically restore vuex state after refreshing the page",
+  "author": "boenfu",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vuex",
+    "SecureLS"
+  ],
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "secure-ls": "^1.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boenfu/vuex-along-secure-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boenfu/vuex-along-secure-adapter/issues"
+  },
+  "homepage": "https://github.com/boenfu/vuex-along-secure-adapter#readme"
+}
