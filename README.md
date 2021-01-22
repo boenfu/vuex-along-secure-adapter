@@ -21,6 +21,10 @@ const store = new Vuex.Store({
 
 More options see [secure-ls](https://github.com/softvar/secure-ls#usage)
 
+## Screenshot
+
+![saved](./saved.png)
+
 ## License
 
 - [MIT](https://opensource.org/licenses/MIT)

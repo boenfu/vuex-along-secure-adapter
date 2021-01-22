@@ -4,7 +4,7 @@ class SecureAdapter<TSchema = any> {
   constructor(private source: string) {}
 
   read(): TSchema {
-    return SecureAdapter.secureLS.get(this.source);
+    return SecureAdapter.secureLS.get(this.source) || {};
   }
 
   write(data: TSchema) {
