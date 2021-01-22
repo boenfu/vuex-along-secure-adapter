@@ -1,6 +1,6 @@
 {
   "name": "vuex-along-secure-adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Automatically restore vuex state after refreshing the page",
   "author": "boenfu",
   "main": "lib/index.js",
